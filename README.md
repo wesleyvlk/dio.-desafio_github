@@ -1,7 +1,7 @@
 # DIO #contratodecompromisso
 
-*// Desafio de projeto Introdução ao Git e ao GitHub por [FalvoJr](https://github.com/falvojr), [Digital Innovation One](https://github.com/digitalinnovationone)*
+*// Desafio de projeto Introdução ao Git e ao GitHub por:*
 
-![](https://avatars.githubusercontent.com/u/730492 =100x100)
+<img src="https://avatars.githubusercontent.com/u/730492" width="50">  [FalvoJr](https://github.com/falvojr)
 
-![](https://avatars.githubusercontent.com/u/26231823 =100x100)
+<img src="https://avatars.githubusercontent.com/u/26231823" width="50">    [Digital Innovation One](https://github.com/digitalinnovationone)
