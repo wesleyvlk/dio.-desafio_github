@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wesle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-07 06:26:10 "/>
+        <attribute name="created" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA2OjE0OjUyICI7MjIwNw=="/>
+        <attribute name="edited" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA2OjI2OjEwICI7MTsyMzEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nt1, nt2, nt3, nt4, media" type="Integer" array="False" size=""/>
+            <input variable="nt1"/>
+            <input variable="nt2"/>
+            <input variable="nt3"/>
+            <input variable="nt4"/>
+            <assign variable="media" expression="(nt1+nt2+nt3+nt4)/4"/>
+            <output expression="nt1" newline="True"/>
+            <output expression="nt2" newline="True"/>
+            <output expression="nt3" newline="True"/>
+            <output expression="nt4" newline="True"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

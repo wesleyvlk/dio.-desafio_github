@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wesle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-07 08:49:26 "/>
+        <attribute name="created" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA4OjQzOjQyICI7MjIxMA=="/>
+        <attribute name="edited" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA4OjQ5OjI2ICI7MTsyMzI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nick, vulgo" type="String" array="False" size=""/>
+            <declare name="idade" type="Real" array="False" size=""/>
+            <output expression="&quot;Fala tu?&quot;" newline="True"/>
+            <input variable="nick"/>
+            <output expression="&quot;Blz, mas qual seu vulgo?&quot;" newline="True"/>
+            <input variable="vulgo"/>
+            <output expression="&quot;Hmmm e a idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Fmz, entao tu &#233; o famoso: &quot; &amp; nick &amp; &quot; &quot; &amp; vulgo &amp; &quot; e ta agora com: &quot; &amp; idade &amp; &quot; anos.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

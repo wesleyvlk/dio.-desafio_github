@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wesle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-07 08:31:51 "/>
+        <attribute name="created" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA4OjI3OjQwICI7MjIxMA=="/>
+        <attribute name="edited" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA4OjMxOjUxICI7MTsyMzE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nt1, nt2, nt3, nt4, media" type="Real" array="False" size=""/>
+            <input variable="nt1"/>
+            <input variable="nt2"/>
+            <input variable="nt3"/>
+            <input variable="nt4"/>
+            <assign variable="media" expression="(nt1+nt2+nt3+nt4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=6">
+                <then>
+                    <output expression="&quot;Stonks bro!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Num vai da!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

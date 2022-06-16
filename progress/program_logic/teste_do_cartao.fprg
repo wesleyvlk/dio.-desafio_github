@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wesle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-07 08:22:07 "/>
+        <attribute name="created" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA4OjA4OjM2ICI7MjIxNA=="/>
+        <attribute name="edited" value="d2VzbGU7V1ZMS1BDOzIwMjItMDYtMDc7IjA4OjIyOjA3ICI7MTsyMzE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                    <output expression="&quot;Obrigado por comprar com a gente&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente s&#243; realizamos por cart&#227;o de credito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
