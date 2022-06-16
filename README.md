@@ -8,7 +8,7 @@
 
 - [certificates](certificates)
 - progress:
-  1. [program_logic](progress\program_logic)
+  1. [program_logic](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/program_logic)
   2. [book_recipes](https://github.com/wesleyvlk/book_recipes)
 
 ###### *Repositório referente ao Bootcamp DIO em parceria com a Santander.*
