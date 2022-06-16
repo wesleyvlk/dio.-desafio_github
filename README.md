@@ -1,4 +1,4 @@
-# Desafio DIO. #contratodecompromisso
+# Desafio DIO. #contratodecompromisso :heavy_check_mark:
 
 ##### *Desafio de projeto Introdução ao Git e ao GitHub por:*
 
