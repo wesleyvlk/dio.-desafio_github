@@ -6,10 +6,10 @@
 
 ## *index:*
 
-- certificates
+- [certificates](certificates)
 - progress:
-  1. program_logic
-  2. book_recipes
+  1. [program_logic](progress\program_logic)
+  2. [book_recipes](https://github.com/wesleyvlk/book_recipes)
 
 ###### *Repositório referente ao Bootcamp DIO em parceria com a Santander.*
 ###### **<img src="https://hermes.digitalinnovation.one/tracks/800fd098-3eef-45e9-9544-544ae396076c.png" width=100>  Santander Bootcamp Fullstack Developer**
