@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align-itens</title>
+    <style>
+        /*comentario em css*/
+        body{margin: 2%;/*margen pois html play bugadao*/} 
+        .container{
+            max-width: 350px;
+            border: 2px solid black;
+            display: flex;
+        }
+        .item{
+            background: blueviolet;
+            margin: 5px;
+            text-align: center;
+            color: white;
+            flex: 1; /*expande uma linha conforme o texto cresce*/
+        }
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items: stretch; /*faz com que os outros itens no container acompanhem a expansao*/
+        }
+        .start{
+            align-items: flex-start;
+        }
+        .end{
+            align-items: flex-end;
+        }
+        .baseline{
+            align-items: baseline; /*cresce conforme a linha base <br> manda*/
+        }
+    </style>
+</head>
+<body>
+    <h1>aling-items</h1>
+    <p>center</p>
+    <section class="container center">
+        <div class="item">text 1</div>
+        <div class="item">text 2 patrik sergio</div>
+        <div class="item">text 3 baggy younkou oda chapou dms</div>
+    </section>
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="item">text 1</div>
+        <div class="item">text 2 patrik sergio ciri maromba patrik sergio ciri maromba patrik sergio ciri maromba</div>
+        <div class="item">text 3 baggy younkou oda chapou dms</div>
+    </section>
+    <p>flex-start</p>
+    <section class="container start">
+        <div class="item">text 1</div>
+        <div class="item">text 2 patrik sergio ciri maromba patrik sergio ciri maromba patrik sergio ciri maromba</div>
+        <div class="item">text 3 baggy younkou oda chapou dms</div>
+    </section>
+    <p>flex-end</p>
+    <section class="container end">
+        <div class="item">text 1</div>
+        <div class="item">text 2 patrik sergio ciri maromba patrik sergio ciri maromba patrik sergio ciri maromba</div>
+        <div class="item">text 3 baggy younkou oda chapou dms</div>
+    </section>
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="item"><br>text 1</div> <!--alinhamento <br> em linha estranho-->
+        <div class="item">text 2 patrik sergio </div>
+        <div class="item">text 3 baggy younkou oda chapou dms</div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+    <style>
+        body{margin: 2%;}
+        .container{
+            height: 300px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+        .item{
+            background: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+        .stretch{
+            align-content: stretch; /*padrao align-content*/
+        }
+        .center{
+            align-content: center;
+        }
+        .flex-start{
+            align-content: flex-start;
+        }
+        .flex-end{
+            align-content: flex-end;
+        }
+        .space-between{
+            align-content: space-between;
+        }
+        .space-around{
+            align-content: space-around;
+        }
+    </style>    
+</head>
+<body>
+    <h1>aling-content</h1>
+    <p>stretch</p> <!--padrao align-content-->
+    <div class="container stretch">
+        <div class="item">000000000 0000 000000000001</div>
+        <div class="item">0000000 000000 0000000000012</div>
+        <div class="item">000000 00000000 000000000013</div>
+        <div class="item">000000000000000000000 00014</div>
+        <div class="item">0000000000000 0000000000015</div>
+        <div class="item">00000000 00000 0000000000016</div>
+        <div class="item">0000000 00000000 00000000017</div>
+    </div>
+    <p>center</p>
+    <div class="container center">
+        <div class="item">000000000 0000 000000000001</div>
+        <div class="item">0000000 000000 0000000000012</div>
+        <div class="item">000000 00000000 000000000013</div>
+        <div class="item">000000000000000000000 00014</div>
+        <div class="item">0000000000000 0000000000015</div>
+        <div class="item">00000000 00000 0000000000016</div>
+        <div class="item">0000000 00000000 00000000017</div>
+    </div>
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">000000000 0000 000000000001</div>
+        <div class="item">0000000 000000 0000000000012</div>
+        <div class="item">000000 00000000 000000000013</div>
+        <div class="item">000000000000000000000 00014</div>
+        <div class="item">0000000000000 0000000000015</div>
+        <div class="item">00000000 00000 0000000000016</div>
+        <div class="item">0000000 00000000 00000000017</div>
+    </div>
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">000000000 0000 000000000001</div>
+        <div class="item">0000000 000000 0000000000012</div>
+        <div class="item">000000 00000000 000000000013</div>
+        <div class="item">000000000000000000000 00014</div>
+        <div class="item">0000000000000 0000000000015</div>
+        <div class="item">00000000 00000 0000000000016</div>
+        <div class="item">0000000 00000000 00000000017</div>
+    </div>
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">000000000 0000 000000000001</div>
+        <div class="item">0000000 000000 0000000000012</div>
+        <div class="item">000000 00000000 000000000013</div>
+        <div class="item">000000000000000000000 00014</div>
+        <div class="item">0000000000000 0000000000015</div>
+        <div class="item">00000000 00000 0000000000016</div>
+        <div class="item">0000000 00000000 00000000017</div>
+    </div>
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">000000000 0000 000000000001</div>
+        <div class="item">0000000 000000 0000000000012</div>
+        <div class="item">000000 00000000 000000000013</div>
+        <div class="item">000000000000000000000 00014</div>
+        <div class="item">0000000000000 0000000000015</div>
+        <div class="item">00000000 00000 0000000000016</div>
+        <div class="item">0000000 00000000 00000000017</div>
+    </div>
+</body>
+</html>
