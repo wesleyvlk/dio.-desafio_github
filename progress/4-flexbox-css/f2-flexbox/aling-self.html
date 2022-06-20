@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - aling self</title>
+    <style>
+        body{margin: 5px;}
+        .f-c{
+            max-width: 350px;
+            border: 1px solid;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .align-container{
+            align-items: center;
+        }
+        .i{
+            background: brown;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        .stretch{
+            align-self: stretch;
+        }
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <div class="f-c">
+        <div class="i auto">1etet</div>
+        <div class="i auto">145f1s1fs1 etet</div>
+        <div class="i auto">1etet</div>
+        <div class="i stretch">1etet</div>
+    </div> <!-- padrao -->
+
+    
+    <div class="f-c">
+        <div class="i center">AAAA</div>
+        <div class="i stretch">1etet</div>
+        <div class="i auto">145f 1s1fs1 etet</div>
+        <div class="i start">123</div>
+        <div class="i end">1etet</div>
+    </div>
+    <h1>Column</h1>
+    <div class="f-c column">
+        <div class="i auto">1etet</div>
+        <div class="i auto">145f1s1fs1 etet</div>
+        <div class="i auto">1etet</div>
+        <div class="i stretch">1etet</div>
+    </div> <!-- padrao -->
+    
+    <div class="f-c column">
+        <div class="i center">AAAA</div>
+        <div class="i stretch">1etet</div>
+        <div class="i auto">145f 1s1fs1 etet</div>
+        <div class="i start">123</div>
+        <div class="i end">1etet</div>
+    </div> 
+</body>
+</html>
