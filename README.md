@@ -13,10 +13,10 @@
   3. [html5_css3](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/3-html5_css3)
     - [nao_nasci_pra_frontend](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/3-html5_css3/nao_nasci_pra_frontend)
   4. [flexbox-css](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/4-flexbox-css)
-    - [fundamentos_1-flexbox](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/4-flexbox-css/f1-flexbox)
-    - [fundamentos_2-flexbox](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/4-flexbox-css/f2-flexbox)
+    - [project-flexbox-dio](https://github.com/wesleyvlk/project-flexbox-dio)
   5. [js_meu_amo](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/5-js_meu_amo)
-    - [intro_js](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/5-js_meu_amo/intro_js)
+    - [Contador_red](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/5-js_meu_amo/intro_js/Contador_red)
+    - [To-do_list](https://github.com/wesleyvlk/dio.-desafio_github/tree/main/progress/5-js_meu_amo/intro_js/To-do_list)
     
 ###### *Repositório referente ao Bootcamp DIO em parceria com a Santander.*
 ###### **<img src="https://hermes.digitalinnovation.one/tracks/800fd098-3eef-45e9-9544-544ae396076c.png" width=100>  Santander Bootcamp Fullstack Developer**
