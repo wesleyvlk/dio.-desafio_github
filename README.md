@@ -6,9 +6,9 @@
 
 ## *index:*
 
-- [certificates](.\certificates)
+- [certificates](certificates)
 - progress:
-  1. [program_logic](.\progress\1-program_logic)
+  1. [program_logic](.\tree\main\progress\1-program_logic)
   2. [book_recipes](https://github.com/wesleyvlk/book_recipes)
   3. [html5_css3](.\progress\3-html5_css3)
     - [nao_nasci_pra_frontend](.\progress\3-html5_css3\nao_nasci_pra_frontend)
